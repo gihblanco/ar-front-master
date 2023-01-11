@@ -1,0 +1,16 @@
+.TableContainer {
+  background: #365B6D;
+}
+
+.TableContainer th, td {
+  text-align: center;
+  padding: 15px;
+}
+.Container {
+  width: 100%;
+  margin: 10px;
+}
+
+.Mui-focused {
+  border-color: #14A59F;
+}

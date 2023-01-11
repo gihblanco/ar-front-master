@@ -1,0 +1,141 @@
+.Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.ContentContainer {
+  display: flex;
+
+  width: 63.063rem;
+
+  height: 60.563rem;
+  margin-top: 17px;
+
+  border-radius: 0.625rem;
+
+  background-color: #365B6D;
+
+  flex-direction: column;
+  align-items: center;
+
+
+  color: #fff;
+}
+
+.ContentContainer h1:first-child {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+  margin-top: 34px;
+}
+
+.ContentContainer h1:last-child {
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.SavePhoto {
+  background-color: #14A59F;
+  width: 9.125rem;
+  height: 3.125rem;
+
+  border-radius: 5px;
+  
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #fff;
+  border: 0;
+
+  cursor: pointer;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ButtonContainer  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 38px;
+}
+
+.LastH1 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 36px;
+}
+
+.SaveData {
+  height: 3.125rem;
+  width: 9.125rem;
+
+  background-color: #14A59F;
+  border: 0;
+  
+  margin-top: 29px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  color: #fff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ContentContainer input {
+  width: 18.75rem;
+  height: 3.125rem;
+
+  margin-top: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px;
+}
+
+.CameraContainer {
+  height: 13.625rem;
+  width: 14.25rem;
+  border-radius: 999px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1rem;
+
+  overflow: hidden;
+}
+
+.CameraContainer img {
+  vertical-align: middle;
+}
+
+
+.PhotoIcon {
+  position: absolute;
+  bottom: 30px;
+  left: 105px;
+
+  cursor: pointer;
+}
+.SpanContainer {
+  position: relative;
+
+  color: transparent;
+}
+
+.SpanContainer :hover {
+  color: #365B6D;
+}

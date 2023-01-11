@@ -1,0 +1,197 @@
+.container {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
+  margin-bottom: 1rem;
+}
+
+.ClassContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 667px;
+  height: 800px;
+}
+
+.AvisoContainer {
+  width: 667px;
+  height: 800px;
+  background-color: #365B6D;
+}
+
+.AvisoContainer, .ClassContainer {
+  margin-top: 25px;
+  border-radius: 10px;
+
+}
+
+.AulaContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.AulaContainer h1 {
+  font-size: 40px;
+  list-style: 48px;
+  color: #365B6D;
+  font-weight: 500;
+}
+
+.AulaContainer p {
+  font-size: 24px;
+  line-height: 29px;
+  color: #365B6D;
+}
+
+.AulaContainer p:last-child {
+  color: rgba(54, 91, 109, 0.3);
+}
+
+.AulaContainer button {
+  width: 21.438rem;
+  height: 3.688rem;
+  border: none;
+  background-color: #14A59F;
+  color: #fff;
+  border-radius: 0.313rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.375rem;
+
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+
+  cursor: pointer;
+
+  transition: 1s background-color;
+}
+
+.AulaContainer button:hover {
+  background-color: #243d49;
+}
+
+.CapaContainer {
+  display: flex;
+
+  flex-direction: row;
+  
+  justify-content: space-between;
+  align-items: flex-start;
+
+
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.CapaContainer {
+  border-radius: 1rem;
+}
+
+.CronogramaContainer {
+  display: flex;
+  flex-grow: 1;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1rem;
+
+}
+
+
+.CronogramaContainer h1 {
+  font-size: 17px;
+  color: white;
+  font-weight: 500;
+
+
+  margin-left: 1rem;
+  margin-bottom: 20px;
+}
+
+.CronogramaContainer button {
+  width: 11.313rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+
+  border: 1px solid #FFFFFF;
+  border-radius: 0.625rem;
+
+  height: 2.625rem;
+
+  background-color: #365B6D;
+
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 21px;
+
+  color: #fff;
+
+  transition: 1s background-color;
+
+  cursor: pointer;
+}
+
+.CronogramaContainer button:hover {
+  background-color: #243d49;
+}
+
+.BiometriaContainer {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.BiometriaContainer img {
+  width: 500px;
+}
+
+.BiometriaContainer h1 {
+  font-weight: 500;
+  font-size: 1.438rem;
+  color: #fff;
+  line-height: 1.688rem;
+}
+
+.Calendario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem;
+  align-items: flex-start;
+}
+.Calendario h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #365B6D;
+  margin: 1rem;
+}
+
+.Calendario img {
+  width: 500px;
+}
+
+@media (max-width: 1444px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

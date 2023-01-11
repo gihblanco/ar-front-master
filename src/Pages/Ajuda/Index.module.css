@@ -1,0 +1,79 @@
+.Container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  gap: 2rem;
+}
+
+.AccordionContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  background-color: #fff;
+  color: #365B6D;
+  padding: 2rem;
+  border-radius: 11px;
+}
+
+.AccordionContainer h1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 21px;
+}
+
+.AccordionContainer p {
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+margin-top: 21px;
+
+cursor: pointer;
+color: #14A59F;
+}
+
+.AccordionHeader button {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 24px;
+  background-color: #fff;
+  color: #365B6D;
+  border: 1px solid #C4C4C4;
+  border-radius: 10px;
+
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.AccordionContent {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  overflow-wrap: break-word;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 24px;
+  background-color: #fff;
+  color: #365B6D;
+}
+
+.AccordionHeader button span:last-child {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.AccordionItem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
